@@ -1,3 +1,5 @@
+Author: Brayden Moore (Aka Sykez)
+
 Sunshot Research Lite is a lightweight, privacy-focused AI research assistant that helps users extract and interact with insights from academic PDFs — all running entirely on your local machine. This tool eliminates the need for cloud APIs, ensuring your documents stay private and secure.
 
 The system uses HuggingFace embeddings to process PDF content into meaningful vector representations, which are then stored in ChromaDB. A local large language model (LLM), such as Mistral via Ollama, powers the question-answering functionality. To make the experience more accessible, the app includes both a command-line interface and an interactive Streamlit-based user interface.
